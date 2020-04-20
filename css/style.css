@@ -166,6 +166,13 @@ header .teaser h2 {
   height:80px;
   border-bottom: 3px solid #585756;
 }
+
+/* inizio better con cubo  */
+
+main .background-main {
+  background-color: #DFF4F2;
+}
+
 main .container {
   position: relative;
 }
@@ -174,8 +181,60 @@ main .better {
   margin-bottom: 30px;
 }
 
-
-main .quadrato {
+main .cubo {
   height: 170px;
   margin-top: 30px;
+}
+/* fine better con cubo */
+
+/* inizio colonna orizzontale free hubspot crm */
+.hubspotcrm {
+  width: 1000px;
+  height: 180px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.book {
+  height: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hubspotcrm .right {
+  width: 70%;
+  text-align: left;
+  height: 100%;
+}
+.hubspotcrm .left {
+  width: 30%;
+  text-align: center;
+  height: 100%;
+}
+
+.right h6{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
+.right hr {
+  width: 350px;
+  height: 3px;
+  background-color: #585756;
+}
+
+.hubspotcrm::after{
+  content: '';
+  display:table;
+  clear:both;
+}
+
+.hubspotcrm .colonna {
+  float: left;
+}
+.right .column {
+  float:left;
+  display: inline-block;
+  padding-top: 20px;
+  text-align: left;
 }
