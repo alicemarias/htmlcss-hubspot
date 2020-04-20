@@ -158,7 +158,24 @@ header .teaser h2 {
 .teaser p {
   margin-bottom: 40px;
 }
-
-
-
 /* fine teaser */
+
+/* inizio riga azzurrina */
+.line {
+  background-color: #50DCCE;
+  height:80px;
+  border-bottom: 3px solid #585756;
+}
+main .container {
+  position: relative;
+}
+main .better {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+main .quadrato {
+  height: 170px;
+  margin-top: 30px;
+}
