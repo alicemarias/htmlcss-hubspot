@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* INIZIO REGOLE GENERALI */
+body {
+  font-family: "montserrat";
+  min-width: 1500px;
+  font-size: 14px;
+  color: #585756;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* imposto padding a tutti i container della pagina */
+.container {
+/*padding: 0 5%;*/
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+/* FINE REGOLE GENERALI */
+
+.clearfix::after{
+  content: '';
+  display:table;
+  clear:both;
+}
+/* SFONDO MENU-TOP */
+ .background {
+  background-color: #DFF4F2;
+  border-bottom: 1px solid #585756;
+  height: 70px;
+  width: 100%;
+}
+/* COLONNE MENU-TOP */
+.menu-top .col {
+  float:left;
+  height: 20px;
+  width: 45%;
+}
+
+.menu-top li {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+}
+/* inizio menu-top colonna sinistra */
+.left .contactus {
+  border-left: 2px solid #585756 ;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #585756;
+}
+.left select {
+  padding-right: 10px;
+}
+/* fine menu-top colonna sinistra */
+
+/* inizio menu-top colonna destra */
+.right .login {
+  display: inline;
+  border: 1px solid #FF5733;
+  border-radius: 4px;
+  padding: 6px;
+  color: #FF5733;
+  background-color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.right .gethubspot {
+  display: inline;
+  border: 2px solid #F7670F;
+  border-radius: 4px;
+  padding: 6px;
+  color: white;
+  background-color: #FF5733;
+  text-decoration: none;
+}
+.right .fa-search {
+  color: #0FF7DC;
+}
+/* fine menu-top colonna destra */
