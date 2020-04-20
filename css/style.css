@@ -17,8 +17,7 @@ ul {
 
 /* imposto padding a tutti i container della pagina */
 .container {
-/*padding: 0 5%;*/
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   height: 100%;
 }
@@ -40,7 +39,7 @@ ul {
 .menu-top .col {
   float:left;
   height: 20px;
-  width: 45%;
+  width: 50%;
 }
 
 .menu-top li {
@@ -61,6 +60,10 @@ ul {
 /* fine menu-top colonna sinistra */
 
 /* inizio menu-top colonna destra */
+.right {
+    text-align: right;
+}
+
 .right .login {
   display: inline;
   border: 1px solid #FF5733;
@@ -85,3 +88,77 @@ ul {
   color: #0FF7DC;
 }
 /* fine menu-top colonna destra */
+/* fine menu top */
+
+/* inizio header */
+/* inizio menu header */
+.clearfix::after{
+  content: '';
+  display:table;
+  clear:both;
+}
+.navigation {
+  height : 70px;
+}
+
+.navigation .col {
+
+  width: 50%;
+  float:left;
+  padding-top: 20px;
+}
+.navigation .menu li{
+  padding: 20px;
+  display: inline;
+  font-size: 13px;
+}
+.menu {
+    text-align: right;
+}
+.navigation .menu a {
+  text-decoration: none;
+  color: #585756
+}
+/* fine menu header */
+ header .background-header{
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-position: 50% 13%;
+  border-bottom: 3px solid #585756;
+}
+
+/* inizio teaser */
+header .teaser {
+ width: 600px;
+ padding-top: 60px;
+
+}
+
+header .teaser h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+
+}
+
+.cta {
+  display: inline;
+  border: 2px solid #F7670F;
+  border-radius: 4px;
+  padding: 13px;
+  color: white;
+  background-color: #FF5733;
+  text-decoration: none;
+}
+.teaser .smalltext {
+  font-size: 10px;
+  margin-top: 40px;
+}
+.teaser p {
+  margin-bottom: 40px;
+}
+
+
+
+/* fine teaser */
