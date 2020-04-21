@@ -392,6 +392,7 @@ main .cubo {
 .rowtwo .colonna {
   float: left;
 }
+
 .rowone img {
   height: 40px;
   padding: 8px;
@@ -420,4 +421,42 @@ main .cubo {
   color: white;
   background-color: #FF5733;
   text-decoration: none;
+}
+/* fine parte con aziende patner */
+
+/* inizio footer */
+footer {
+  background-color: #374460;
+  color: white;
+}
+footer .col {
+  float:left;
+  width: 25%;
+}
+footer h6 {
+  font-size: 13px;
+  padding: 15px;
+}
+footer li {
+  padding: 5px;
+}
+
+footer .contact {
+  display: inline;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 8px;
+  color: #374460;
+  background-color: white;
+  text-decoration: none;
+  margin: 5px;
+
+}
+
+span {
+  display: inline-block;
+  text-align: center;
+}
+hr {
+  margin: 16px;
 }
