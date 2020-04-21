@@ -432,6 +432,13 @@ footer {
 footer .col {
   float:left;
   width: 25%;
+  text-align: left;
+}
+
+.col i {
+  color: white;
+  font-size: 20px;
+
 }
 footer h6 {
   font-size: 13px;
@@ -442,21 +449,20 @@ footer li {
 }
 
 footer .contact {
-  display: inline;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 4px;
-  padding: 8px;
+  padding: 6px;
   color: #374460;
   background-color: white;
   text-decoration: none;
-  margin: 5px;
+  margin: 17px;
 
 }
 
 span {
-  display: inline-block;
   text-align: center;
 }
 hr {
   margin: 16px;
 }
+/* fine footer */
