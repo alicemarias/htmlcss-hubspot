@@ -320,7 +320,7 @@ main .cubo {
   font-size: 13px;
 
 }
-
+/* float left alle colonne di entrambe le righe */
 .rowtop .column {
   float:left;
   text-align: center;
@@ -331,7 +331,7 @@ main .cubo {
   text-align: center;
   width: 280px;
 }
-
+/* inizio bordi */
 .rowtop .one {
   border-right: 1px solid white;
 }
@@ -360,6 +360,8 @@ main .cubo {
   border-top: 1px solid white;
   border-left: 1px solid white;
 }
+/* fine  bordi */
+
 .column h2 {
   font-size: 40px;
   padding-left: 80px;
@@ -369,4 +371,53 @@ main .cubo {
   font-size: 40px;
   color: white;
   padding-top: 20px;
+}
+/* fine parte blu */
+
+/* inizio parte con aziende patner */
+.rowone .colonna {
+  float: left;
+  text-align: center;
+}
+
+.rowone p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.rowtwo p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.rowtwo .colonna {
+  float: left;
+}
+.rowone img {
+  height: 40px;
+  padding: 8px;
+}
+.rowtwo img {
+  height: 300px;
+  padding-left: 190px;
+}
+
+.rowone .due {
+  width: 70%;
+}
+
+.rowone .uno {
+  width: 30%;
+}
+.rowone  h2 {
+  font-size: 40px;
+  padding-bottom: 12px;
+}
+.gethubspot {
+  display: inline;
+  border: 2px solid #F7670F;
+  border-radius: 4px;
+  padding: 6px;
+  color: white;
+  background-color: #FF5733;
+  text-decoration: none;
 }
