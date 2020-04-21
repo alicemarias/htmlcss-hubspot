@@ -175,7 +175,6 @@ main .background-main {
 }
 
 main .container {
-  
   padding-top:30px;
   padding-bottom:30px;
   width: 80%;
@@ -266,9 +265,10 @@ main .cubo {
   float: left;
   text-align: center;
   margin-top:30px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 4px;
   text-align: center;
+  background: white;
 }
 
 .hub .sales {
