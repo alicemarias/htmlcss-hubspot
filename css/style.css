@@ -359,19 +359,17 @@ main .cubo {
   border-top: 1px solid white;
   border-right: 1px solid white;
 }
-.rowbottom .two {
+.rowbottom .two  {
   border-top: 1px solid white;
   border-right: 1px solid white;
-  border-left: 1px solid white;
 }
-.rowbottom .three {
+.rowbottom .three  {
   border-top: 1px solid white;
-  border-right: 1px solid white;
-  border-left: 1px solid white;
+  border-right: 1px solid white;  
 }
+
 .rowbottom .four {
   border-top: 1px solid white;
-  border-left: 1px solid white;
 }
 /* fine  bordi */
 
@@ -388,29 +386,15 @@ main .cubo {
 /* fine parte blu */
 
 /* inizio parte con aziende patner */
+.colonna p {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+/* inizio prima riga */
 .rowone .colonna {
   float: left;
   text-align: center;
-}
-.colonna p {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.rowtwo .colonna {
-  float: left;
-  text-align: left;
-  width: 50%;
-}
-
-.rowone img {
-  height:20px;
-  padding-right: 4px;
-  display: inline;
-}
-.rowtwo img {
-  height: 300px;
-  padding-left: 190px;
 }
 
 .rowone .due {
@@ -422,8 +406,31 @@ main .cubo {
 }
 .rowone  h2 {
   font-size: 40px;
-  padding-bottom: 12px;
 }
+
+.rowone img {
+  height:30px;
+  padding: 6px;
+  display: inline;
+}
+
+/* fine prima riga */
+
+/* inizio seconda riga */
+.rowtwo h3 {
+  font-size:40px;
+}
+.rowtwo img {
+  height: 350px;
+  padding-left: 190px;
+}
+
+.rowtwo .colonna {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
 .gethubspot {
   display: inline;
   border: 2px solid #F88E4D;
@@ -433,6 +440,7 @@ main .cubo {
   background-color: #F88E4D;
   text-decoration: none;
 }
+/* fine seconda riga */
 /* fine parte con aziende patner */
 /* FINE MAIN */
 
@@ -470,8 +478,7 @@ footer  .contact {
   background-color: white;
   text-decoration: none;
   margin-top: 30px;
-  margin-bottom: 20px;
-
+  margin-bottom: 50px;
 }
 
 .container {
