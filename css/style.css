@@ -308,7 +308,7 @@ main .cubo {
 
 /* inizio parte blu */
 .backgroundblue {
-  background-color: #0B9498;
+  background-image: linear-gradient(to right, #25A2D4, #0CDFCC);
   color:white;
   text-align: center;
 }
