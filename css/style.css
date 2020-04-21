@@ -232,13 +232,22 @@ main .cubo {
 .hubspotcrm .colonna {
   float: left;
 }
+
 .right .column {
   float:left;
   display: inline-block;
   padding-top: 20px;
   text-align: left;
 }
-.arrows i {
-  vertical-align: middle;
-  color: #FF5733;
+
+.column::after{
+  content: '';
+  display:table;
+  clear:both;
 }
+
+
+
+/* fine colonna hubspot crm */
+
+/* inizio tre colonne con hub */
