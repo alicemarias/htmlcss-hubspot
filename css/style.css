@@ -28,6 +28,8 @@ ul {
   display:table;
   clear:both;
 }
+/* INIZIO HEADER*/
+
 /* SFONDO MENU-TOP */
  .background {
   background-color: #DFF4F2;
@@ -46,6 +48,9 @@ ul {
   display: inline-block;
   text-decoration: none;
   margin-top: 20px;
+}
+.menu-top i {
+  color:#585756;
 }
 /* inizio menu-top colonna sinistra */
 .left .contactus {
@@ -90,8 +95,7 @@ ul {
 /* fine menu-top colonna destra */
 /* fine menu top */
 
-/* inizio header */
-/* inizio menu header */
+/* inizio menu logo hubspot */
 .clearfix::after{
   content: '';
   display:table;
@@ -117,9 +121,14 @@ ul {
 }
 .navigation .menu a {
   text-decoration: none;
-  color: #585756
+  color: #585756;
 }
-/* fine menu header */
+.navigation i {
+  color: #585756;
+}
+/* fine menu logo hubspot */
+
+/* immagine background header */
  header .background-header{
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
@@ -159,7 +168,7 @@ header .teaser h2 {
   margin-bottom: 40px;
 }
 /* fine teaser */
-/* fine header */
+/* FINE HEADER */
 
 /* inizio riga azzurrina */
 .line {
@@ -169,7 +178,7 @@ header .teaser h2 {
 }
 /* fine riga azzurrina */
 
-/* inizio main */
+/* INIZIO MAIN */
 main .background-hub {
   background-color: #DFF4F2;
 }
@@ -250,7 +259,7 @@ main .cubo {
  i {
   padding-right: 6px;
   padding-left: 6px;
-  color: #585756;
+  color: #FF5733;
 }
 
 .column::after{
@@ -304,6 +313,10 @@ main .cubo {
   text-align: center;
   display: block;
 }
+.features i {
+  color:#FF5733;
+}
+
 /* fine tre colonne con hub */
 
 /* inizio parte blu */
@@ -379,23 +392,21 @@ main .cubo {
   float: left;
   text-align: center;
 }
-
-.rowone p {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.rowtwo p {
+.colonna p {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .rowtwo .colonna {
   float: left;
+  text-align: left;
+  width: 50%;
 }
 
 .rowone img {
-  height: 40px;
-  padding: 8px;
+  height:20px;
+  padding-right: 4px;
+  display: inline;
 }
 .rowtwo img {
   height: 300px;
@@ -423,8 +434,9 @@ main .cubo {
   text-decoration: none;
 }
 /* fine parte con aziende patner */
+/* FINE MAIN */
 
-/* inizio footer */
+/* INIZIO FOOTER */
 footer {
   background-color: #374460;
   color: white;
@@ -432,37 +444,47 @@ footer {
 footer .col {
   float:left;
   width: 25%;
+  height: 300px;
   text-align: left;
 }
 
-.col i {
+footer .col i {
   color: white;
   font-size: 20px;
-
+  display: inline;
+  margin-top: 50px;
 }
 footer h6 {
   font-size: 13px;
-  padding: 15px;
+  padding-bottom: 15px;
 }
 footer li {
   padding: 5px;
 }
 
-footer .contact {
+footer  .contact {
   border: 1px solid white;
   border-radius: 4px;
-  padding: 6px;
+  padding-top: 6px;
   color: #374460;
   background-color: white;
   text-decoration: none;
-  margin: 17px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 
 }
 
-span {
+.container {
   text-align: center;
+  padding: 10px;
 }
+span {
+  margin-top: 100px;
+}
+
+
+
 hr {
   margin: 16px;
 }
-/* fine footer */
+/* FINE FOOTER */
