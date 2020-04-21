@@ -269,11 +269,14 @@ main .cubo {
   border-radius: 4px;
   text-align: center;
   background: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
 }
 
 .hub .sales {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .hub img {
   height: 90px;
