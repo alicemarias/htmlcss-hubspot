@@ -170,7 +170,7 @@ header .teaser h2 {
 /* fine riga azzurrina */
 
 /* inizio main */
-main .background-main {
+main .background-hub {
   background-color: #DFF4F2;
 }
 
@@ -305,3 +305,68 @@ main .cubo {
   display: block;
 }
 /* fine tre colonne con hub */
+
+/* inizio parte blu */
+.backgroundblue {
+  background-color: #0B9498;
+  color:white;
+  text-align: center;
+}
+.backgroundblue h2 {
+  padding-bottom: 20px;
+}
+.backgroundblue p {
+  padding: 20px;
+  font-size: 13px;
+
+}
+
+.rowtop .column {
+  float:left;
+  text-align: center;
+  width: 280px;
+}
+.rowbottom .column {
+  float:left;
+  text-align: center;
+  width: 280px;
+}
+
+.rowtop .one {
+  border-right: 1px solid white;
+}
+.rowtop .two {
+  border-right: 1px solid white;
+}
+.rowtop .three {
+  border-right: 1px solid white;
+}
+
+.rowbottom .one {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+}
+.rowbottom .two {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+.rowbottom .three {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+.rowbottom .four {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+.column h2 {
+  font-size: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.column i {
+  font-size: 40px;
+  color: white;
+  padding-top: 20px;
+}
