@@ -32,7 +32,7 @@ ul {
 
 /* SFONDO MENU-TOP */
  .background {
-  background-color: #DFF4F2;
+  background-color: #EFF8F7;
   border-bottom: 1px solid #585756;
   height: 70px;
   width: 100%;
@@ -71,10 +71,10 @@ ul {
 
 .right .login {
   display: inline;
-  border: 1px solid #FF5733;
+  border: 1px solid #F88E4D;
   border-radius: 4px;
   padding: 6px;
-  color: #FF5733;
+  color: #F88E4D;
   background-color: white;
   text-decoration: none;
   margin-left: 20px;
@@ -82,11 +82,11 @@ ul {
 }
 .right .gethubspot {
   display: inline;
-  border: 2px solid #F7670F;
+  border: 2px solid #F88E4D;
   border-radius: 4px;
   padding: 6px;
   color: white;
-  background-color: #FF5733;
+  background-color: #F88E4D;
   text-decoration: none;
 }
 .right .fa-search {
@@ -153,11 +153,11 @@ header .teaser h2 {
 
 .cta {
   display: inline;
-  border: 2px solid #F7670F;
+  border: 2px solid #F88E4D;
   border-radius: 4px;
   padding: 13px;
   color: white;
-  background-color: #FF5733;
+  background-color: #F88E4D;
   text-decoration: none;
 }
 .teaser .smalltext {
@@ -180,7 +180,7 @@ header .teaser h2 {
 
 /* INIZIO MAIN */
 main .background-hub {
-  background-color: #DFF4F2;
+  background-color: #EFF8F7;
 }
 
 main .container {
@@ -259,7 +259,7 @@ main .cubo {
  i {
   padding-right: 6px;
   padding-left: 6px;
-  color: #FF5733;
+  color: #F88E4D;
 }
 
 .column::after{
@@ -314,7 +314,7 @@ main .cubo {
   display: block;
 }
 .features i {
-  color:#FF5733;
+  color:#F88E4D;
 }
 
 /* fine tre colonne con hub */
@@ -426,11 +426,11 @@ main .cubo {
 }
 .gethubspot {
   display: inline;
-  border: 2px solid #F7670F;
+  border: 2px solid #F88E4D;
   border-radius: 4px;
-  padding: 6px;
+  padding: 13px;
   color: white;
-  background-color: #FF5733;
+  background-color: #F88E4D;
   text-decoration: none;
 }
 /* fine parte con aziende patner */
