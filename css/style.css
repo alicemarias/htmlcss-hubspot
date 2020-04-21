@@ -175,15 +175,17 @@ main .background-main {
 
 main .container {
   position: relative;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 main .better {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom:30px;
 }
 
 main .cubo {
   height: 170px;
-  margin-top: 30px;
+
 }
 /* fine better con cubo */
 
@@ -238,6 +240,12 @@ main .cubo {
   display: inline-block;
   padding-top: 20px;
   text-align: left;
+  padding-bottom:20px;
+}
+ i {
+  padding-right: 6px;
+  padding-left: 6px;
+  color: #585756;
 }
 
 .column::after{
@@ -245,9 +253,6 @@ main .cubo {
   display:table;
   clear:both;
 }
-
-
-
 /* fine colonna hubspot crm */
 
 /* inizio tre colonne con hub */
