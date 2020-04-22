@@ -408,16 +408,16 @@ main .colonna p {
 }
 
 .rowone .due img {
-  width: 18%;
+  width: 14%;
   vertical-align: middle;
-  margin: 6px 6px;
+  margin: 6px;
 }
 
 /* fine prima riga */
 
 /* inizio seconda riga */
 .rowtwo h3 {
-  font-size:40px;
+  font-size:30px;
 }
 .rowtwo img {
   height: 400px;
