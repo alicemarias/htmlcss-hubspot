@@ -309,7 +309,7 @@ main .cubo {
   display: inline-block;
 }
 
-.col .features li {
+.col .features ul li {
   text-align: center;
   display: block;
 }
@@ -384,7 +384,6 @@ main .backgroundblue p {
   padding-top: 20px;
 }
 /* fine parte blu */
-
 /* inizio parte con aziende patner */
 main .colonna p {
   margin-top: 50px;
@@ -472,15 +471,16 @@ footer li {
 footer  .contact {
   border: 1px solid white;
   border-radius: 4px;
-  padding-top: 6px;
+  padding:13px;
   color: #374460;
   background-color: white;
   text-decoration: none;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
 }
 
-.container {
+.language {
   text-align: center;
   padding: 10px;
 }
@@ -498,15 +498,10 @@ footer .colonna {
   float:left;
   width: 50%;
   height: 200px;
+}
 
-}
-footer .colonna .logo {
-  text-align: left;
-  display: inline;
-}
-footer .colonna .privacy {
+footer .colonna.privacy {
   text-align: right;
-
 }
 
 
