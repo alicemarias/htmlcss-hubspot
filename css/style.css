@@ -328,7 +328,7 @@ main .cubo {
 .backgroundblue h2 {
   padding-bottom: 20px;
 }
-.backgroundblue p {
+main .backgroundblue p {
   padding: 20px;
   font-size: 13px;
 
@@ -365,7 +365,7 @@ main .cubo {
 }
 .rowbottom .three  {
   border-top: 1px solid white;
-  border-right: 1px solid white;  
+  border-right: 1px solid white;
 }
 
 .rowbottom .four {
@@ -386,7 +386,7 @@ main .cubo {
 /* fine parte blu */
 
 /* inizio parte con aziende patner */
-.colonna p {
+main .colonna p {
   margin-top: 50px;
   margin-bottom: 70px;
 }
@@ -460,7 +460,6 @@ footer .col i {
   color: white;
   font-size: 20px;
   display: inline;
-  margin-top: 50px;
 }
 footer h6 {
   font-size: 13px;
@@ -490,8 +489,25 @@ span {
 }
 
 
-
+/* riga footer */
 hr {
   margin: 16px;
 }
+/* ultima parte del footer con logo e privacy*/
+footer .colonna {
+  float:left;
+  width: 50%;
+  height: 200px;
+
+}
+footer .colonna .logo {
+  text-align: left;
+  display: inline;
+}
+footer .colonna .privacy {
+  text-align: right;
+
+}
+
+
 /* FINE FOOTER */
