@@ -133,9 +133,9 @@ ul {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 100%;
-
-  background-position: 50% 72%;
+  background-position: 50% 35%;
   border-bottom: 3px solid #585756;
+  height: 600px;
 }
 
 /* inizio teaser */
@@ -229,7 +229,6 @@ main .cubo {
 
 .right h6{
   margin-top: 20px;
-  margin-bottom: 20px;
   font-size: 20px;
 
 }
@@ -386,8 +385,8 @@ main .backgroundblue p {
 /* fine parte blu */
 /* inizio parte con aziende patner */
 main .colonna p {
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /* inizio prima riga */
@@ -483,10 +482,11 @@ footer  .contact {
 
 .language {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 span {
   margin-top: 100px;
+  padding-right: 10px;
 }
 
 
