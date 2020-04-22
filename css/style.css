@@ -396,21 +396,21 @@ main .colonna p {
   text-align: center;
 }
 
-.rowone .due {
-  width: 70%;
-}
-
 .rowone .uno {
   width: 30%;
 }
 .rowone  h2 {
   font-size: 40px;
 }
+.rowone .due {
+  float: left;
+  width:  70%;
+}
 
-.rowone img {
-  height:30px;
-  padding: 6px;
-  display: inline;
+.rowone .due img {
+  width: 18%;
+  vertical-align: middle;
+  margin: 6px 6px;
 }
 
 /* fine prima riga */
@@ -420,7 +420,7 @@ main .colonna p {
   font-size:40px;
 }
 .rowtwo img {
-  height: 350px;
+  height: 400px;
   padding-left: 190px;
 }
 
@@ -453,6 +453,7 @@ footer .col {
   width: 25%;
   height: 300px;
   text-align: left;
+  margin-top:27px;
 }
 
 footer .col i {
